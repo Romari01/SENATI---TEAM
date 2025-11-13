@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Campus Online SENATI</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <!-- Pantalla de Login -->
+    <div id="loginScreen" class="login-container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="img/logo-senati.png" alt="SENATI" class="logo-img">
+                <h1>CAMPUS ONLINE</h1>
+                <p>Sistema de Gestión Académica</p>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label>Usuario:</label>
+                    <input type="text" id="username" placeholder="Ingrese su usuario" required>
+                </div>
+                <div class="form-group">
+                    <label>Contraseña:</label>
+                    <input type="password" id="password" placeholder="Ingrese su contraseña" required>
+                </div>
+                <button type="submit" class="btn-login">INGRESAR</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Dashboard Principal -->
+    <div id="dashboard" class="dashboard">
+        <header class="header">
+            <h2>🎓 SENATI - Campus Online</h2>
+            <div class="user-info">
+                <span id="userName">Estudiante</span>
+                <button id="btnLogout" class="btn-logout">Cerrar Sesión</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <nav class="menu">
+                    <div class="menu-item active" data-page="inicio">
+                        📊 Inicio
+                    </div>
+                    <div class="menu-item" data-page="biblioteca">
+                        📚 Biblioteca
+                    </div>
+                    <div class="menu-item" data-page="proyectos">
+                        📁 Proyectos
+                    </div>
+                    <div class="menu-item" data-page="blackboard">
+                        🎯 Blackboard
+                    </div>
+                    <div class="menu-item" data-page="correo">
+                        ✉️ Correo
+                    </div>
+                    <div class="menu-item" data-page="disenos">
+                        🎨 Diseños Curriculares
+                    </div>
+                    <div class="menu-item" data-page="titulacion">
+                        🏆 Titulación
+                    </div>
+                </nav>
+            </aside>
+
+            <main class="content-area" id="contentArea">
+                <!-- El contenido se cargará dinámicamente aquí -->
+            </main>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
