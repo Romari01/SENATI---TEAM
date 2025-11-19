@@ -450,3 +450,11 @@ Este proyecto es propiedad de **SENATI** - Servicio Nacional de Adiestramiento e
 - 📞 **Línea gratuita**: 0801-11100
 - 📞 **Central telefónica**: (01) 5149700
 - 🏢 **Sede Central**: Av. Alfredo Mendiola #3520, Independencia, Lima, Perú
+
+### Soporte Técnico
+
+Para reportar bugs o solicitar nuevas características:
+- Abre un [Issue en GitHub](https://github.com/TU-USUARIO/SENATI---TEAM/issues)
+- Envía un email a: soportevirtual@senati.pe
+
+---
