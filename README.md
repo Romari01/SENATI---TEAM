@@ -348,3 +348,38 @@ JavaScript funcional con:
 - Scroll animations
 - Lazy loading de imágenes
 - Event tracking
+
+### Cómo Personalizar
+
+#### Cambiar colores
+```css
+/* Editar en css/styles.css */
+:root {
+    --senati-red: #TU_COLOR;
+}
+```
+
+#### Agregar servicio
+```html
+<!-- Copiar en index.html -->
+<div class="service-card" onclick="window.open('URL', '_blank')">
+    <div class="service-card-image">
+        <img src="img/tu-imagen.png" alt="Servicio">
+        <div class="service-card-overlay">
+            <p>Descripción <strong>destacada</strong></p>
+        </div>
+    </div>
+    <div class="service-card-content">
+        <h3>NOMBRE SERVICIO</h3>
+        <p>Descripción corta</p>
+    </div>
+</div>
+```
+
+#### Modificar enlaces
+```html
+<!-- En navbar -->
+<a href="TU_URL" target="_blank">Tu Enlace</a>
+```
+
+---
