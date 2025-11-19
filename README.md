@@ -510,6 +510,15 @@ Agradecimientos especiales a:
 
 ---
 
-⭐ Si te gustó este proyecto, dale una estrella en GitHub
+<p>
+    <a href="https://github.com/Romari01/SENATI---TEAM" target="_blank">
+        <img src="https://img.shields.io/github/stars/Romari01/SENATI---TEAM?style=social" alt="GitHub Stars">
+        &nbsp; Dale una estrella en GitHub
+    </a>
+</p>
+
+<p>
+    ¿Quieres contribuir? Haz un <strong>fork</strong> y abre un <strong>Pull Request</strong>. Revisa la sección "Cómo Contribuir" arriba para más detalles.
+</p>
 
 </div>
