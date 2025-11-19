@@ -241,3 +241,28 @@ var(--senati-red);
 ```
 
 ---
+
+## 📱 Responsive Design
+
+El sistema se adapta perfectamente a diferentes resoluciones:
+
+| Dispositivo | Breakpoint | Características |
+|-------------|------------|-----------------|
+| 📱 **Móvil** | < 600px | 1 columna, menú hamburguesa |
+| 📱 **Tablet** | 600px - 968px | 2 columnas, menú adaptado |
+| 💻 **Desktop** | > 968px | Grid completo, menú horizontal |
+
+### Breakpoints CSS
+
+```css
+/* Móvil pequeño */
+@media (max-width: 600px) { }
+
+/* Tablet */
+@media (max-width: 968px) { }
+
+/* Desktop grande */
+@media (min-width: 1200px) { }
+```
+
+---
