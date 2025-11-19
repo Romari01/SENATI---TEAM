@@ -383,3 +383,61 @@ JavaScript funcional con:
 ```
 
 ---
+
+## 🖼️ Imágenes Requeridas
+
+### Especificaciones
+
+| Archivo | Tamaño | Formato | Uso |
+|---------|--------|---------|-----|
+| logo-senati.png | 455x128px | PNG | Navbar logo |
+| correo-electronico.png | 316x229px | PNG/JPG | Tarjeta correo |
+| biblioteca-online.png | 316x229px | PNG/JPG | Tarjeta biblioteca |
+| blackboard.png | 316x227px | PNG/JPG | Tarjeta Blackboard |
+| contenidos-curriculares.png | 316x229px | PNG/JPG | Tarjeta diseños |
+| biblioteca-proyectos.png | 316x229px | PNG/JPG | Tarjeta proyectos |
+| complementacion.png | 316x229px | PNG/JPG | Tarjeta titulación |
+| youtube.png | 316x229px | PNG/JPG | Tarjeta YouTube |
+| software.png | 316x229px | PNG/JPG | Tarjeta software |
+| preguntas-frecuentes.png | Variable | PNG/JPG | Banner FAQ |
+
+### Obtener Imágenes
+
+1. **Del sitio original**
+   - Abrir [campusonline.senati.edu.pe](https://campusonline.senati.edu.pe/)
+   - DevTools → Network → Images
+   - Descargar cada imagen
+
+2. **Crear propias**
+   - Usar Photoshop/GIMP
+   - Seguir paleta de colores SENATI
+   - Exportar en PNG con fondo transparente
+
+---
+
+## 👥 Equipo de Desarrollo
+
+**LOS SENATINOS** - Equipo de desarrollo SENATI
+
+### Contribuidores
+- Desarrollador Principal
+- Diseñador UI/UX
+- Tester QA
+
+### Cómo Contribuir
+
+1. **Fork** el proyecto
+2. **Crea** una rama (`git checkout -b feature/NuevaCaracteristica`)
+3. **Commit** tus cambios (`git commit -m 'Agregar nueva característica'`)
+4. **Push** a la rama (`git push origin feature/NuevaCaracteristica`)
+5. Abre un **Pull Request**
+
+---
+
+## 📄 Licencia
+
+Este proyecto es propiedad de **SENATI** - Servicio Nacional de Adiestramiento en Trabajo Industrial.
+
+© 2025 SENATI. Todos los derechos reservados.
+
+---
