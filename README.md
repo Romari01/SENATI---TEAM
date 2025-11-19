@@ -482,3 +482,11 @@ Para reportar bugs o solicitar nuevas características:
 - [ ] Multiidioma (ES/EN/QU)
 
 ---
+
+## 🌟 Agradecimientos
+
+Agradecimientos especiales a:
+- SENATI por la oportunidad
+- El equipo de desarrollo
+- Los estudiantes e instructores que usan el sistema
+- La comunidad open source
