@@ -266,3 +266,57 @@ El sistema se adapta perfectamente a diferentes resoluciones:
 ```
 
 ---
+
+## 🚀 Despliegue
+
+### GitHub Pages
+
+1. **Configurar repositorio**
+   ```bash
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
+   ```
+
+2. **Activar GitHub Pages**
+   - Ve a Settings → Pages
+   - Source: `main` branch
+   - Folder: `/ (root)`
+   - Save
+
+3. **URL resultante**
+   ```
+   https://TU-USUARIO.github.io/SENATI---TEAM/
+   ```
+
+### Netlify
+
+1. **Conectar repositorio**
+   - Login en [netlify.com](https://netlify.com)
+   - New site from Git
+   - Selecciona tu repositorio
+
+2. **Configuración**
+   ```
+   Build command: (vacío)
+   Publish directory: /
+   ```
+
+3. **Deploy**
+   - Deploy site
+   - URL personalizada disponible
+
+### Vercel
+
+```bash
+# Instalar Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+
+# Producción
+vercel --prod
+```
+
+---
