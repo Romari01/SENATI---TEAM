@@ -320,3 +320,31 @@ vercel --prod
 ```
 
 ---
+
+## 📚 Documentación Adicional
+
+### Archivos del Proyecto
+
+#### 1. index.html
+Estructura HTML5 semántica con:
+- Navbar responsiva
+- Grid de 8 servicios
+- Banner de preguntas frecuentes
+- Sección de video
+- Footer con formulario
+
+#### 2. css/styles.css
+Estilos completos con:
+- Variables CSS para colores
+- Grid y Flexbox layouts
+- Animaciones CSS3
+- Media queries responsive
+- Efectos hover
+
+#### 3. js/main.js
+JavaScript funcional con:
+- Menú hamburguesa
+- Validación de formularios
+- Scroll animations
+- Lazy loading de imágenes
+- Event tracking
