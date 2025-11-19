@@ -67,3 +67,41 @@ Disponible **24/7** desde cualquier dispositivo móvil.
 - ✅ **Ligero y rápido** - Sin dependencias pesadas
 - ✅ **Accesibilidad** - Cumple estándares web
 
+---
+
+## 📂 Estructura del Proyecto
+
+```
+SENATI---TEAM/
+│
+├── 📄 index.html                 # Página principal
+├── 📄 README.md                  # Este archivo
+│
+├── 📁 css/
+│   └── 📄 styles.css            # Estilos principales (colores oficiales)
+│
+├── 📁 js/
+│   └── 📄 main.js               # JavaScript principal
+│
+├── 📁 img/                      # Imágenes del proyecto
+│   ├── 🖼️ logo-senati.png       # Logo horizontal blanco (455x128px)
+│   ├── 🖼️ correo-electronico.png # Ícono correo (316x229px)
+│   ├── 🖼️ biblioteca-online.png  # Ícono biblioteca (316x229px)
+│   ├── 🖼️ blackboard.png         # Logo Blackboard (316x227px)
+│   ├── 🖼️ contenidos-curriculares.png # Ícono curricular (316x229px)
+│   ├── 🖼️ biblioteca-proyectos.png # Ícono proyectos (316x229px)
+│   ├── 🖼️ complementacion.png    # Ícono titulación (316x229px)
+│   ├── 🖼️ youtube.png            # Logo YouTube (316x229px)
+│   ├── 🖼️ software.png           # Ícono software (316x229px)
+│   └── 🖼️ preguntas-frecuentes.png # Banner FAQ
+│
+└── 📁 page/                     # Páginas adicionales (opcional)
+    ├── biblioteca.html
+    ├── biblioteca_proyectos.html
+    ├── blackboard.html
+    ├── correo.html
+    ├── diseños_curriculares.html
+    └── titulacion.html
+```
+
+---
