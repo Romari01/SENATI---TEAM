@@ -27,3 +27,20 @@
 - [Contacto](#-contacto)
 
 ---
+
+## 📝 Descripción
+
+**Campus Online** es un espacio que SENATI pone a disposición de sus estudiantes y colaboradores para acceder a las herramientas tecnológicas de aprendizaje. Estas herramientas incluyen:
+
+- ✉️ **Correo institucional** @senati.pe
+- 📚 **Biblioteca virtual** con materiales de carreras
+- 🎯 **Plataforma Blackboard** LMS
+- 📋 **Diseños curriculares** y estructuras
+- 📁 **Biblioteca de proyectos** con miles de referencias
+- 🎓 **Complementación y titulación**
+- ▶️ **Canal oficial de YouTube**
+- 💻 **Software académico** por familia ocupacional
+
+Disponible **24/7** desde cualquier dispositivo móvil.
+
+---
