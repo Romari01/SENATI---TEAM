@@ -120,3 +120,18 @@ SENATI---TEAM/
 | **Gris Fondo** | `#efefef` | Footer background | ![#efefef](https://via.placeholder.com/50x20/efefef/efefef.png) |
 | **Gris Texto** | `#85929E` | Enlaces footer | ![#85929E](https://via.placeholder.com/50x20/85929E/85929E.png) |
 
+### Variables CSS
+
+```css
+:root {
+    --senati-red: #e30613;
+    --senati-red-dark: #c00510;
+    --senati-blue: #1e3c72;
+    --senati-blue-light: #2a5298;
+    --senati-blue-banner: #0A39E4;
+    --senati-gray-bg: #efefef;
+    --senati-gray-text: #85929E;
+}
+```
+
+---
