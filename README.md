@@ -441,3 +441,12 @@ Este proyecto es propiedad de **SENATI** - Servicio Nacional de Adiestramiento e
 © 2025 SENATI. Todos los derechos reservados.
 
 ---
+
+## 📞 Contacto
+
+### SENATI - Campus Online
+
+- 📧 **Email**: soportevirtual@senati.pe
+- 📞 **Línea gratuita**: 0801-11100
+- 📞 **Central telefónica**: (01) 5149700
+- 🏢 **Sede Central**: Av. Alfredo Mendiola #3520, Independencia, Lima, Perú
