@@ -201,3 +201,43 @@ Todos los enlaces conectan directamente con los servicios reales de SENATI:
 | **SINFO** | [sinfo.senati.edu.pe](https://sinfo.senati.edu.pe/) | Sistema información |
 
 ---
+
+## 🛠️ Tecnologías Utilizadas
+
+### Frontend
+- **HTML5** - Estructura semántica
+- **CSS3** - Estilos y animaciones
+  - CSS Grid Layout
+  - Flexbox
+  - CSS Custom Properties (Variables)
+  - Media Queries
+  - Transitions & Animations
+- **JavaScript ES6+** - Interactividad
+  - DOM Manipulation
+  - Event Listeners
+  - Form Validation
+  - Intersection Observer API
+  - Async/Await
+
+### Características CSS
+```css
+/* Grid Layout */
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+/* Flexbox */
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+/* Variables */
+var(--senati-red);
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+```
+
+---
