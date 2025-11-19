@@ -4,94 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Correo Institucional - SENATI</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/logo-senati.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/pages.css">
 </head>
 <body>
-    <div class="page-content">
-        <h2>✉️ Correo Institucional</h2>
-        <p>Gestiona tu correo electrónico institucional y mantente comunicado con docentes y compañeros.</p>
-        
-        <div class="cards-container">
-            <div class="card" style="background: linear-gradient(135deg, #ff6e7f 0%, #bfe9ff 100%);">
-                <h3>📬 Bandeja de Entrada</h3>
-                <p>8 mensajes nuevos</p>
-                <button class="card-btn">Abrir</button>
+
+    <!-- HEADER -->
+    <header class="page-header">
+        <div class="header-content">
+            <div class="header-left">
+                <img src="../img/logo-senati.png" alt="SENATI" class="logo">
+                <div class="header-title">
+                    <h1>Correo Institucional</h1>
+                    <p>Gestiona tu correo @senati.pe</p>
+                </div>
             </div>
-            
-            <div class="card" style="background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);">
-                <h3>📤 Enviados</h3>
-                <p>15 mensajes enviados</p>
-                <button class="card-btn">Ver</button>
-            </div>
-            
-            <div class="card" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
-                <h3>✏️ Redactar</h3>
-                <p>Nuevo mensaje</p>
-                <button class="card-btn">Escribir</button>
-            </div>
-            
-            <div class="card" style="background: linear-gradient(135deg, #fdcbf1 0%, #e6dee9 100%);">
-                <h3>⭐ Importantes</h3>
-                <p>4 mensajes marcados</p>
-                <button class="card-btn">Ver</button>
-            </div>
-            
-            <div class="card" style="background: linear-gradient(135deg, #a1ffce 0%, #faffd1 100%);">
-                <h3>📎 Archivos</h3>
-                <p>Adjuntos recibidos</p>
-                <button class="card-btn">Gestionar</button>
-            </div>
-            
-            <div class="card" style="background: linear-gradient(135deg, #ffd3a5 0%, #fd6585 100%);">
-                <h3>🗑️ Papelera</h3>
-                <p>12 elementos eliminados</p>
-                <button class="card-btn">Ver</button>
-            </div>
+            <a href="../index.html" class="btn-back">← Volver al Inicio</a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        <!-- BREADCRUMB -->
+        <div class="breadcrumb">
+            <a href="../index.html">Inicio</a> / <span>Correo Institucional</span>
         </div>
 
-        <div style="margin-top: 30px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-            <h3 style="color: #e30613; margin-bottom: 20px;">📨 Mensajes Recientes</h3>
-            
-            <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#f8f9fa'" onmouseout="this.style.background='white'">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <strong style="color: #333;">Prof. Juan García - Matemática Aplicada</strong>
-                    <span style="font-size: 12px; color: #999;">Hoy 10:30 AM</span>
-                </div>
-                <p style="margin: 8px 0 0 0; color: #666; font-size: 14px;">Material complementario para el examen parcial...</p>
-            </div>
-            
-            <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#f8f9fa'" onmouseout="this.style.background='white'">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <strong style="color: #333;">Coordinación Académica</strong>
-                    <span style="font-size: 12px; color: #999;">Ayer 3:45 PM</span>
-                </div>
-                <p style="margin: 8px 0 0 0; color: #666; font-size: 14px;">Recordatorio: Inscripción para talleres extracurriculares...</p>
-            </div>
-            
-            <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#f8f9fa'" onmouseout="this.style.background='white'">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <strong style="color: #333;">Biblioteca SENATI</strong>
-                    <span style="font-size: 12px; color: #999;">12/11/2025</span>
-                </div>
-                <p style="margin: 8px 0 0 0; color: #666; font-size: 14px;">Recordatorio de devolución de libros prestados...</p>
-            </div>
-            
-            <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#f8f9fa'" onmouseout="this.style.background='white'">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <strong style="color: #333;">Prof. María Torres - Programación Web</strong>
-                    <span style="font-size: 12px; color: #999;">11/11/2025</span>
-                </div>
-                <p style="margin: 8px 0 0 0; color: #666; font-size: 14px;">Resultado de la evaluación del proyecto intermedio...</p>
-            </div>
-            
-            <div style="padding: 15px; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background='#f8f9fa'" onmouseout="this.style.background='white'">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <strong style="color: #333;">Bienestar Estudiantil</strong>
-                    <span style="font-size: 12px; color: #999;">10/11/2025</span>
-                </div>
-                <p style="margin: 8px 0 0 0; color: #666; font-size: 14px;">Convocatoria para becas de excelencia académica...</p>
-            </div>
+        <!-- INFO BOX -->
+        <div class="info-box">
+            <h2>📧 Correo Institucional SENATI</h2>
+            <p>Accede a tu correo electrónico institucional con tu cuenta @senati.pe. Mantente comunicado con tus instructores, compañeros y la administración académica.</p>
+            <a href="https://outlook.com/senati.pe" target="_blank" class="access-button">
+                Acceder a Outlook →
+            </a>
         </div>
-    </div>
+
+        <!-- EMAIL CONTAINER -->
+        <div class="email-container">
+            
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+                <button class="btn-compose">✉️ Redactar</button>
+                <ul class="sidebar-menu">
+                    <li><a href="#" class="active">📥 Bandeja de entrada <span class="menu-badge">8</span></a></li>
+                    <li><a href="#">📤 Enviados</a></li>
+                    <li><a href="#">📝 Borradores <span class="menu-badge">2</span></a></li>
+                    <li><a href="#">⭐ Destacados</a></li>
+                    <li><a href="#">📎 Archivos</a></li>
+                    <li><a href="#">🗑️ Eliminados</a></li>
+                    <li><a href="#">⚙️ Configuración</a></li>
+                </ul>
+            </aside>
+
+            <!-- EMAIL CONTENT -->
+            <div class="email-content">
+                <div class="email-toolbar">
+                    <button class="toolbar-btn">🔄 Actualizar</button>
+                    <button class="toolbar-btn">🗑️ Eliminar</button>
+                    <button class="toolbar-btn">📁 Archivar</button>
+                    <button class="toolbar-btn">🏷️ Marcar</button>
+                </div>
+
+                <ul class="email-list">
+                    <li class="email-item unread">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Prof. Juan García Martínez</div>
+                            <div class="email-subject">Material complementario - Matemática Aplicada</div>
+                            <div class="email-preview">Estimados estudiantes, adjunto el material complementario para el examen parcial que se realizará el próximo viernes...</div>
+                        </div>
+                        <div class="email-date">Hoy 10:30 AM</div>
+                    </li>
+
+                    <li class="email-item unread">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Coordinación Académica</div>
+                            <div class="email-subject">Recordatorio: Inscripción talleres extracurriculares</div>
+                            <div class="email-preview">Le recordamos que las inscripciones para los talleres extracurriculares del semestre 2025-I están abiertas hasta el...</div>
+                        </div>
+                        <div class="email-date">Ayer 3:45 PM</div>
+                    </li>
+
+                    <li class="email-item">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Biblioteca SENATI</div>
+                            <div class="email-subject">Recordatorio de devolución de libros</div>
+                            <div class="email-preview">Estimado estudiante, le recordamos que tiene préstamos de libros que vencen el día 20/11/2025...</div>
+                        </div>
+                        <div class="email-date">15/11/2025</div>
+                    </li>
+
+                    <li class="email-item">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Prof. María Torres Sánchez</div>
+                            <div class="email-subject">Resultado evaluación - Programación Web</div>
+                            <div class="email-preview">Buenos días, les informo que ya están disponibles las calificaciones del proyecto intermedio en Blackboard...</div>
+                        </div>
+                        <div class="email-date">14/11/2025</div>
+                    </li>
+
+                    <li class="email-item">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Bienestar Estudiantil</div>
+                            <div class="email-subject">Convocatoria becas de excelencia académica</div>
+                            <div class="email-preview">Estimados estudiantes, nos complace informarles que está abierta la convocatoria para las becas de excelencia académica 2025...</div>
+                        </div>
+                        <div class="email-date">12/11/2025</div>
+                    </li>
+
+                    <li class="email-item">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Soporte Técnico SENATI</div>
+                            <div class="email-subject">Actualización plataforma Blackboard</div>
+                            <div class="email-preview">Informamos que el día sábado 18/11 se realizará mantenimiento programado en la plataforma Blackboard de 2:00 AM a 6:00 AM...</div>
+                        </div>
+                        <div class="email-date">10/11/2025</div>
+                    </li>
+
+                    <li class="email-item">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Prof. Carlos Mendoza</div>
+                            <div class="email-subject">Práctica de laboratorio - Electricidad Industrial</div>
+                            <div class="email-preview">Estimados alumnos, para la práctica del próximo lunes deben traer los siguientes materiales: multímetro digital, cables...</div>
+                        </div>
+                        <div class="email-date">08/11/2025</div>
+                    </li>
+
+                    <li class="email-item">
+                        <input type="checkbox" class="email-checkbox">
+                        <div>
+                            <div class="email-from">Secretaría Académica</div>
+                            <div class="email-subject">Cronograma de exámenes finales</div>
+                            <div class="email-preview">Les compartimos el cronograma oficial de los exámenes finales del semestre. Por favor, verifiquen sus fechas y horarios...</div>
+                        </div>
+                        <div class="email-date">05/11/2025</div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </main>
+
 </body>
 </html>

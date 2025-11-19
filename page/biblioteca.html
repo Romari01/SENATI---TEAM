@@ -1,58 +1,211 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblioteca - SENATI</title>
-  <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Online - SENATI</title>
+    <link rel="shortcut icon" href="../img/logo-senati.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/pages.css">
 </head>
 <body>
-  <div class="page-content">
-    <h2>📚 Biblioteca Virtual</h2>
-    <p>Accede a todos los recursos bibliográficos digitales disponibles para tu formación académica.</p>
-    <div class="cards-container">
-      <div class="card" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-        <h3>📖 Libros Digitales</h3>
-        <p>Más de 5,000 títulos disponibles en formato digital</p>
-        <button class="card-btn">Explorar</button>
-      </div>
-      <div class="card" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
-        <h3>📄 Revistas Técnicas</h3>
-        <p>Artículos especializados actualizados mensualmente</p>
-        <button class="card-btn">Ver Revistas</button>
-      </div>
-      <div class="card" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
-        <h3>🔍 Buscador Avanzado</h3>
-        <p>Encuentra recursos por tema, autor o categoría</p>
-        <button class="card-btn">Buscar</button>
-      </div>
-      <div class="card" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
-        <h3>⭐ Más Consultados</h3>
-        <p>Los libros más populares del mes</p>
-        <button class="card-btn">Ver Lista</button>
-      </div>
-      <div class="card" style="background: linear-gradient(135deg, #fdcbf1 0%, #e6dee9 100%);">
-        <h3>📚 Mis Préstamos</h3>
-        <p>Gestiona tus préstamos activos</p>
-        <button class="card-btn">Ver Préstamos</button>
-      </div>
-      <div class="card" style="background: linear-gradient(135deg, #a1ffce 0%, #faffd1 100%);">
-        <h3>🆕 Nuevos Ingresos</h3>
-        <p>Últimas adquisiciones de la biblioteca</p>
-        <button class="card-btn">Explorar</button>
-      </div>
-    </div>
-    <div style="margin-top: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-      <h3 style="color: #e30613; margin-bottom: 15px;">📋 Categorías Disponibles</h3>
-      <ul style="list-style: none; padding: 0;">
-        <li style="padding: 10px; border-bottom: 1px solid #ddd;">🔧 Mecánica Industrial</li>
-        <li style="padding: 10px; border-bottom: 1px solid #ddd;">⚡ Electrotecnia</li>
-        <li style="padding: 10px; border-bottom: 1px solid #ddd;">💻 Tecnología de la Información</li>
-        <li style="padding: 10px; border-bottom: 1px solid #ddd;">🏗️ Construcción Civil</li>
-        <li style="padding: 10px; border-bottom: 1px solid #ddd;">🎨 Diseño Gráfico</li>
-        <li style="padding: 10px;">📊 Administración Industrial</li>
-      </ul>
-    </div>
-  </div>
+
+    <!-- HEADER -->
+    <header class="page-header">
+        <div class="header-content">
+            <div class="header-left">
+                <img src="../img/logo-senati.png" alt="SENATI" class="logo">
+                <div class="header-title">
+                    <h1>Biblioteca Online</h1>
+                    <p>Recursos bibliográficos digitales</p>
+                </div>
+            </div>
+            <a href="../index.html" class="btn-back">← Volver al Inicio</a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        <!-- BREADCRUMB -->
+        <div class="breadcrumb">
+            <a href="../index.html">Inicio</a> / <span>Biblioteca Online</span>
+        </div>
+
+        <!-- SEARCH BAR -->
+        <div class="search-container">
+            <h2>🔍 Buscar Recursos</h2>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar libros, revistas, artículos...">
+                <button class="btn-search">Buscar</button>
+            </div>
+            <div class="search-filters">
+                <select>
+                    <option>Todas las categorías</option>
+                    <option>Libros</option>
+                    <option>Revistas</option>
+                    <option>Artículos</option>
+                    <option>Tesis</option>
+                </select>
+                <select>
+                    <option>Todas las carreras</option>
+                    <option>Mecánica Industrial</option>
+                    <option>Electrotecnia</option>
+                    <option>Computación e Informática</option>
+                    <option>Construcción Civil</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- CATEGORIES -->
+        <div class="categories-grid">
+            <div class="category-card">
+                <div class="category-icon">📖</div>
+                <h3>Libros Digitales</h3>
+                <p class="category-count">5,247 recursos</p>
+                <p>Acceso a biblioteca digital con miles de títulos</p>
+                <button class="btn-category">Explorar</button>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">📄</div>
+                <h3>Revistas Técnicas</h3>
+                <p class="category-count">1,832 artículos</p>
+                <p>Publicaciones especializadas actualizadas</p>
+                <button class="btn-category">Explorar</button>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">📚</div>
+                <h3>Bases de Datos</h3>
+                <p class="category-count">12 bases disponibles</p>
+                <p>Acceso a bases de datos académicas</p>
+                <button class="btn-category">Explorar</button>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🎓</div>
+                <h3>Tesis y Proyectos</h3>
+                <p class="category-count">3,456 documentos</p>
+                <p>Repositorio de trabajos académicos</p>
+                <button class="btn-category">Explorar</button>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🎥</div>
+                <h3>Videos Educativos</h3>
+                <p class="category-count">890 videos</p>
+                <p>Material audiovisual de apoyo</p>
+                <button class="btn-category">Explorar</button>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">📋</div>
+                <h3>Normas Técnicas</h3>
+                <p class="category-count">2,145 normas</p>
+                <p>Normas y estándares industriales</p>
+                <button class="btn-category">Explorar</button>
+            </div>
+        </div>
+
+        <!-- POPULAR BOOKS -->
+        <section class="popular-section">
+            <h2>📚 Más Consultados del Mes</h2>
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-cover">📘</div>
+                    <h4>Fundamentos de Programación</h4>
+                    <p class="book-author">Luis Joyanes Aguilar</p>
+                    <p class="book-stats">⭐ 4.8 | 👁️ 1,234 vistas</p>
+                    <button class="btn-book">Ver Libro</button>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover">📗</div>
+                    <h4>Mecánica de Materiales</h4>
+                    <p class="book-author">Ferdinand Beer</p>
+                    <p class="book-stats">⭐ 4.9 | 👁️ 987 vistas</p>
+                    <button class="btn-book">Ver Libro</button>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover">📙</div>
+                    <h4>Circuitos Eléctricos</h4>
+                    <p class="book-author">James Nilsson</p>
+                    <p class="book-stats">⭐ 4.7 | 👁️ 856 vistas</p>
+                    <button class="btn-book">Ver Libro</button>
+                </div>
+
+                <div class="book-card">
+                    <div class="book-cover">📕</div>
+                    <h4>Construcción Civil</h4>
+                    <p class="book-author">Roberto Morales</p>
+                    <p class="book-stats">⭐ 4.6 | 👁️ 745 vistas</p>
+                    <button class="btn-book">Ver Libro</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARRERAS -->
+        <section class="careers-section">
+            <h2>🎓 Recursos por Carrera</h2>
+            <div class="careers-list">
+                <div class="career-item">
+                    <div class="career-icon">⚙️</div>
+                    <div class="career-info">
+                        <h3>Mecánica Industrial</h3>
+                        <p>842 recursos disponibles</p>
+                    </div>
+                    <button class="btn-career">Ver →</button>
+                </div>
+
+                <div class="career-item">
+                    <div class="career-icon">⚡</div>
+                    <div class="career-info">
+                        <h3>Electrotecnia Industrial</h3>
+                        <p>756 recursos disponibles</p>
+                    </div>
+                    <button class="btn-career">Ver →</button>
+                </div>
+
+                <div class="career-item">
+                    <div class="career-icon">💻</div>
+                    <div class="career-info">
+                        <h3>Computación e Informática</h3>
+                        <p>1,234 recursos disponibles</p>
+                    </div>
+                    <button class="btn-career">Ver →</button>
+                </div>
+
+                <div class="career-item">
+                    <div class="career-icon">🏗️</div>
+                    <div class="career-info">
+                        <h3>Construcción Civil</h3>
+                        <p>623 recursos disponibles</p>
+                    </div>
+                    <button class="btn-career">Ver →</button>
+                </div>
+
+                <div class="career-item">
+                    <div class="career-icon">🎨</div>
+                    <div class="career-info">
+                        <h3>Diseño Gráfico Digital</h3>
+                        <p>489 recursos disponibles</p>
+                    </div>
+                    <button class="btn-career">Ver →</button>
+                </div>
+
+                <div class="career-item">
+                    <div class="career-icon">🤖</div>
+                    <div class="career-info">
+                        <h3>Mecatrónica Industrial</h3>
+                        <p>567 recursos disponibles</p>
+                    </div>
+                    <button class="btn-career">Ver →</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 </body>
 </html>
