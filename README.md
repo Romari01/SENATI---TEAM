@@ -458,3 +458,27 @@ Para reportar bugs o solicitar nuevas características:
 - Envía un email a: soportevirtual@senati.pe
 
 ---
+
+## 🔄 Changelog
+
+### v1.0.0 (Noviembre 2025)
+- ✅ Diseño inicial completo
+- ✅ Integración de 8 servicios
+- ✅ Responsive design implementado
+- ✅ Formulario de contacto funcional
+- ✅ Animaciones y efectos visuales
+- ✅ Video embebido de YouTube
+- ✅ Footer con información de contacto
+
+### Roadmap Futuro
+- [ ] Sistema de búsqueda de servicios
+- [ ] Sección de noticias/anuncios
+- [ ] Dashboard personalizado para usuarios
+- [ ] Integración con API de SENATI
+- [ ] Sistema de notificaciones push
+- [ ] Modo oscuro (dark mode)
+- [ ] PWA (Progressive Web App)
+- [ ] Accesibilidad WCAG 2.1 AAA
+- [ ] Multiidioma (ES/EN/QU)
+
+---
