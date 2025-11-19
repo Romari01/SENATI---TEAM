@@ -184,3 +184,20 @@ python -m SimpleHTTPServer 8000
 ```
 
 ---
+
+## 🌐 Servicios Integrados
+
+Todos los enlaces conectan directamente con los servicios reales de SENATI:
+
+| Servicio | URL | Descripción |
+|----------|-----|-------------|
+| **Correo** | [outlook.com/senati.pe](https://outlook.com/senati.pe) | Correo institucional |
+| **Biblioteca** | [SharePoint](https://senatipe.sharepoint.com/sites/innovacion/bv/) | Biblioteca virtual |
+| **Blackboard** | [senati.blackboard.com](https://senati.blackboard.com) | LMS educativo |
+| **Diseños** | [SharePoint DC](https://senatipe.sharepoint.com/sites/innovacion/dc) | Diseños curriculares |
+| **Proyectos** | [SharePoint](https://senatipe.sharepoint.com/sites/innovacion/proyectos/) | Repositorio proyectos |
+| **Titulación** | [cursosenati.blackboard.com](https://cursosenati.blackboard.com/) | Complementación |
+| **YouTube** | [Canal SENATI](https://www.youtube.com/user/virtualsenati/) | Videos oficiales |
+| **SINFO** | [sinfo.senati.edu.pe](https://sinfo.senati.edu.pe/) | Sistema información |
+
+---
