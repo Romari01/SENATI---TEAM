@@ -135,3 +135,52 @@ SENATI---TEAM/
 ```
 
 ---
+
+## 💻 Instalación
+
+### Opción 1: Clonar el repositorio
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/TU-USUARIO/SENATI---TEAM.git
+
+# Entrar al directorio
+cd SENATI---TEAM
+
+# Abrir con Live Server o navegador
+open index.html
+```
+
+### Opción 2: Descargar ZIP
+
+1. Descarga el archivo ZIP del repositorio
+2. Extrae el contenido en tu carpeta de proyectos
+3. Abre `index.html` en tu navegador favorito
+
+### Opción 3: Desarrollo Local con Live Server
+
+#### Visual Studio Code
+
+```bash
+# Instalar Live Server extension
+code --install-extension ritwickdey.LiveServer
+
+# Abrir el proyecto
+code .
+
+# Clic derecho en index.html > Open with Live Server
+```
+
+#### Python Simple Server
+
+```bash
+# Python 3
+python -m http.server 8000
+
+# Python 2
+python -m SimpleHTTPServer 8000
+
+# Abrir: http://localhost:8000
+```
+
+---
