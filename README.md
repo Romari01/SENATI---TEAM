@@ -9,3 +9,21 @@
 > Portal web oficial del Campus Online de SENATI - Sistema de gestión académica para estudiantes e instructores del Servicio Nacional de Adiestramiento en Trabajo Industrial.
 
 ---
+
+## 📖 Índice
+
+- [Descripción](#-descripción)
+- [Características](#-características)
+- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Colores Oficiales](#-colores-oficiales-senati)
+- [Instalación](#-instalación)
+- [Servicios Integrados](#-servicios-integrados)
+- [Tecnologías](#-tecnologías-utilizadas)
+- [Responsive Design](#-responsive-design)
+- [Despliegue](#-despliegue)
+- [Documentación](#-documentación-adicional)
+- [Equipo](#-equipo-de-desarrollo)
+- [Licencia](#-licencia)
+- [Contacto](#-contacto)
+
+---
