@@ -490,3 +490,26 @@ Agradecimientos especiales a:
 - El equipo de desarrollo
 - Los estudiantes e instructores que usan el sistema
 - La comunidad open source
+
+---
+
+## 📊 Estadísticas del Proyecto
+
+![GitHub repo size](https://img.shields.io/github/repo-size/TU-USUARIO/SENATI---TEAM?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/TU-USUARIO/SENATI---TEAM?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/TU-USUARIO/SENATI---TEAM?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/TU-USUARIO/SENATI---TEAM?style=social)
+
+---
+
+<div align="center">
+
+**Desarrollado con ❤️ por el equipo LOS SENATINOS para SENATI**
+
+[🔗 Visita el Campus Online oficial](https://campusonline.senati.edu.pe/)
+
+---
+
+⭐ Si te gustó este proyecto, dale una estrella en GitHub
+
+</div>
