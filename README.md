@@ -44,3 +44,26 @@
 Disponible **24/7** desde cualquier dispositivo móvil.
 
 ---
+
+## ✨ Características
+
+### 🎨 Diseño
+- ✅ **Diseño Responsive** - Adaptable a móviles, tablets y desktop
+- ✅ **Colores oficiales SENATI** - Paleta corporativa (#e30613, #1e3c72)
+- ✅ **Interfaz moderna** - UI/UX optimizada para la experiencia del usuario
+- ✅ **Animaciones suaves** - Transiciones CSS3 y JavaScript
+
+### ⚙️ Funcionalidad
+- ✅ **Menú hamburguesa** - Para dispositivos móviles
+- ✅ **Tarjetas interactivas** - Efectos hover con overlay rojo SENATI
+- ✅ **Formulario de contacto** - Con validación en tiempo real
+- ✅ **Video embebido** - YouTube integrado
+- ✅ **Lazy loading** - Carga optimizada de imágenes
+- ✅ **Smooth scroll** - Desplazamiento suave
+
+### 🚀 Performance
+- ✅ **Optimización SEO** - Meta tags configurados
+- ✅ **Cross-browser** - Compatible con todos los navegadores
+- ✅ **Ligero y rápido** - Sin dependencias pesadas
+- ✅ **Accesibilidad** - Cumple estándares web
+
